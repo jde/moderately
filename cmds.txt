@@ -1,0 +1,6 @@
+
+docker build -t moderately .
+
+
+docker run -i -t moderately /bin/bash
+docker run -a stdin -a stdout -i -t moderately /bin/bash
